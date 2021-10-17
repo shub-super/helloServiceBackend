@@ -12,7 +12,8 @@ public class HelloController {
 	@Value("${NAME}")
     private String name;
 	
-	@CrossOrigin(origins = "http://localhost:3000")
+	
+	@CrossOrigin
 	@GetMapping("/hello")
 	String getResponse() {
 		
