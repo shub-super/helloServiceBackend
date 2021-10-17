@@ -8,5 +8,13 @@ API : URL : /hello   (http://localhost:8080/hello)
 
 To run it run it as a spring boot application and the application will be up and running on port 8080
   
-  Additionally the CORS origin has been set to port 3000 to receive the reuest for the above API.
-  Finally the Security of this application has been turned off for the timebeing to enable running it smoothly with being required to login.
+  Additionally the CORS origin requests has been enabled.
+  Also, the Security of this application has been turned off for the timebeing to enable running it smoothly with being required to login.
+
+    
+    
+    Deploying the Application to Kubernates.
+    
+    1. Build the image with name "spring-boot-test" --> docker build -t spring-boot-test .
+    2. Deploy in kubernates --> kubectl apply -f deployment.yaml
+    3. 
