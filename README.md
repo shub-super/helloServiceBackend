@@ -17,4 +17,4 @@ To run it run it as a spring boot application and the application will be up and
     
     1. Build the image with name "spring-boot-test" --> docker build -t spring-boot-test .
     2. Deploy in kubernates --> kubectl apply -f deployment.yaml
-    3. 
+    
